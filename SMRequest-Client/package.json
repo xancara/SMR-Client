@@ -1,0 +1,19 @@
+{
+  "name": "smrequests-client",
+  "version": "0.1.0",
+  "description": "Client application for use with SMRequests.com's StepMania Streaming request system",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Mr.Twinkles47, phixious AKA xancara",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.1"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.17.6",
+    "node-twitch": "^0.4.1"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SMRequests :: Home</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body style="background: white;">
+    <h1>Hello World! Electron Demo</h1>
+    <p>
+        We are using node <script>document.write(process.versions.node)</script>,
+        Chrome <script>document.write(process.versions.chrome)</script>,
+        and Electron <script>document.write(process.versions.electron)</script>.
+    </p>
+    <br/>
+    <h1>
+        Welcome to the starter page for SM-Requests
+    </h1>
+    <p>
+        There may or may not be a login page here to retreive your settings from the service. <br/>
+        If we don't get to that now, expect some settings boxes here to confirm your information
+    </p>
+    <!--  Floating left or positioned left quick start bar -->
+    <div id="quick-start">
+        <h4>To get started:</h4>
+        <p>First Run Only Tasks</p>
+        <!--  detect if these things are already done and cross them out -->   
+        <ol>
+            <li id="setup">Setup your information in the configurator</li> <!-- Cross out if settings file exists-->
+            <li id="twitchconf">Configure your channel for broadcasting</li> <!-- Cross out if broadcaster settings exist -->
+            <li id="initScraper">Run your first song scraper</li> <!-- Cross out if database already has > 1 row in sm_songs for user -->
+            <li id="initStats">Run your first stats scraper</li> <!-- Cross out if database already has > 1 row in sm_scores for user -->
+            <li id="initLinks">Generate your stream links</li> <!-- Cross out if links already exist with security code -->
+        </ol>
+        <h4>Quick Navigation</h4>
+        <p>Now that those things are taken care of, what would you like to do?</p>
+        <ul>
+            <li><a href="#">Configuration Manager</a></li><!-- Set appearance as Button -->
+            <li><a href="#">Client Manager</a></li><!-- Set appearance as Button -->
+            <li><a href="#">Stream Manager</a></li><!-- Set appearance as Button -->
+            <li><a href="#">Stream Stats</a></li><!-- Set appearance as Button -->
+        </ul>
+    </div>
+</body>
+</html>
