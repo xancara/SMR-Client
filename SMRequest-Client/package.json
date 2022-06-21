@@ -10,7 +10,7 @@
   "author": "Mr.Twinkles47, phixious AKA xancara, LoneWolf155",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^11.2.1"
+    "electron": "^19.0.5"
   },
   "dependencies": {
     "fast-xml-parser": "^3.17.6",
